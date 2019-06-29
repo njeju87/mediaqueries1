@@ -1,0 +1,34 @@
+.box {
+  width: 200px;
+  height: 200px;
+  border: 1px solid #000;
+  display: inline-block;
+}
+
+/* media queries */
+
+@media (max-width: 767px) {
+    .mobile {
+        background-color:blue;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+    .tablet {
+    background-color:#bada55;
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1800px) {
+.desktop {
+    background-color:#000000;
+}
+
+.column
+{
+    float:left;
+    width: 100%;
+    height: 50px;
+    background-color:#000000;
+}
+
